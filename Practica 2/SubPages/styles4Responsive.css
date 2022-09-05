@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+    width: 24.7%;
+    background-color: green;
+    transition: 1s backgraund-color 2s;
+}
+
+@media screen and (max-width: 1011px){
+    div{
+        display: inline-block;
+        width: 49%;
+        background-color: yellow;
+    }
+}
+@media screen and (max-width: 600px){
+    div{
+        display: inline-block;
+        width: 100%;
+        background-color: red;
+    }
+}

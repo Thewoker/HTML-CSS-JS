@@ -1,0 +1,22 @@
+.Rojo{
+    color: red;
+}
+
+a.ClaseHover:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+a.ClaseVisited:visited{
+    color: lightblue;
+    text-decoration: dotted;
+}
+
+a.ClaseActive:active{
+    color: crimson;
+    text-decoration: double;
+}
+
+a.ClaseFocus:focus{
+    background-color: blueviolet;
+}

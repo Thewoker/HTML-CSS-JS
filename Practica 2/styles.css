@@ -1,0 +1,56 @@
+*{
+    background-color: lightseagreen;
+    font-family: 'DynaPuff', cursive, Arial, Helvetica, sans-serif;
+    background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+    background-size: 200vh;
+    
+}
+
+
+.Main{
+    margin: 1% 2% 1% 2%;
+    width: 95%;
+    height: 4em;
+    color: grey;
+    display: block;
+}
+
+.Description{
+    margin: 1% 2% 1% 2%;
+    width: 95%;
+    height: 10em;
+    color: grey;
+}
+
+.Article{
+    display: inline-block;
+    margin: 1% 1% 1% 2%;
+    width: 46%;
+    height: 10em;
+    color: grey;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1em;
+    float: right;   
+}
+
+header ul li a{
+    text-decoration: none;
+    color: darkgray;
+    transition: 3s;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    box-shadow: .3em .2em 0.8em;
+      
+}
+
+header{
+    padding: 0em 2em 1em 0em;
+}
+
